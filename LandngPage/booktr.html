@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book My Trip - Hill Station</title>
+  <link rel="stylesheet" type="text/css" href="booktr.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Book My Trip - Hill Station</h1>
+    <form class="booking-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      
+      <label for="destination">Destination:</label>
+      <select id="destination" name="destination" required>
+        <option value="">Select a hill station</option>
+        <option value="Shimla">Shimla</option>
+        <option value="Manali">Manali</option>
+        <option value="Darjeeling">Darjeeling</option>
+        <option value="Ooty">Ooty</option>
+        <option value="Mussoorie">Mussoorie</option>
+        <option value="Munnar">Munnar</option>
+      </select>
+      
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" required>
+      
+      <input type="submit" value="Book Now" class="btn">
+    </form>
+  </div>
+</body>
+</html>

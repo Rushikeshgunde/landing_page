@@ -1,0 +1,19 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .city-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .city-list li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }

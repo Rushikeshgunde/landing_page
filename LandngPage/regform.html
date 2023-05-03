@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hill Station Registration</title>
+  <link rel="stylesheet" type="text/css" href="regform.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Register for Hill Station Adventure</h1>
+    <form class="register-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <input type="submit" value="Register" class="btn">
+    </form>
+  </div>
+</body>
+</html>
